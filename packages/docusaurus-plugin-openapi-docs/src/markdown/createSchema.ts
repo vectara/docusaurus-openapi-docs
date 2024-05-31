@@ -512,6 +512,7 @@ function createPropertyDiscriminator(
   discriminator: any,
   required: string[] | boolean
 ): any {
+  return undefined;
   if (schema === undefined) {
     return undefined;
   }
